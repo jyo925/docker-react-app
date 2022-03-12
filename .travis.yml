@@ -15,11 +15,11 @@ script:
 deploy:
   edge: true
   provider: elasticbeanstalk
-  region: ap-northeast-2
-  app: docker-react-app
-  env: DockerReactApp-env
-  bucket_name: elasticbeanstalk-ap-northeast-2-787808573525
-  bucket_path: docker-react-app
+  region: us-east-1
+  app: docker-react-appn
+  env: Dockerreactappn-env
+  bucket_name: elasticbeanstalk-us-east-1-787808573525
+  bucket_path: docker-react-appn
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
